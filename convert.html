@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CurrencyConverter</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="./assets/css/convertstyle.css">
+</head>
+
+<body>
+    <!-- header section -->
+    <div class="hero is-primary">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <h1 class="title">Currency Converter</h1>
+                <h4 class="subtitle is-size-5-mobile is-size-4-tablet is-size-3-desktop">Check live foreign currency
+                    exchange rates</h4>
+            </div>
+        </div>
+    </div>
+
+    <!-- convert or chart toggle section -->
+    <div class="tabs is-centered is-boxed">
+        <ul>
+            <li id="convert-tab" class="is-active">
+                <a> <span class="material-symbols-rounded">currency_exchange</span>
+                    <span>Convert</span>
+                </a>
+            </li>
+            <li id="charts-tab">
+                <a> <span class="material-symbols-rounded"><i class="fa-regular fa-chart-line-up"></i> chart_data</span>
+                    <span>Charts</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- adding convert section -->
+    <div class="column">
+        <div class="columns is-centered ">
+            <div class="column is-two-thirds">
+    
+    <div class="columns">
+        <div class="column">
+            
+                  <label class="label">Amount</label>
+            
+            
+                    <p class="control is-expanded has-icons-left">
+                        <input class="input" type="text" placeholder="">
+                        <span class="icon is-small is-left">
+                            <i class="fa fa-usd"></i>
+                        </span>
+                    </p>
+        </div>
+        
+        
+            <label class="label">From</label>
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                  <button class="button" aria-haspopup="true" aria-controls="dropdown-menu">
+                    <span>Dropdown button</span>
+                    <span class="icon is-small">
+                      <i class="fas fa-angle-down" aria-hidden="true"></i>
+                    </span>
+                  </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                  <div class="dropdown-content">
+                    <a href="#" class="dropdown-item">
+                      Dropdown item 1
+                    </a>
+                    <a href="#" class="dropdown-item">
+                      Dropdown item 2
+                    </a>
+                    <a href="#" class="dropdown-item">
+                      Dropdown item 3
+                    </a>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="column"><!--  add a right left arrow later -->
+            <label class="label"></label>
+            <button class="button is-rounded">Rounded</button>
+        </div>
+        <div class="column">
+            <label class="label">To</label>
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                  <button class="button" aria-haspopup="true" aria-controls="dropdown-menu">
+                    <span>Dropdown button</span>
+                    <span class="icon is-small">
+                      <i class="fas fa-angle-down" aria-hidden="true"></i>
+                    </span>
+                  </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                  <div class="dropdown-content">
+                    <a href="#" class="dropdown-item">
+                      Dropdown item 1
+                    </a>
+                    <a href="#" class="dropdown-item">
+                      Dropdown item 2
+                    </a>
+                    <a href="#" class="dropdown-item">
+                      Dropdown item 3
+                    </a>
+                  </div>
+                </div>
+              </div>
+              
+            
+        </div>
+    </div>
+    </div>
+     </div>
+    </div>
+
+
+
+
+        <!-- adding chart section -->
+        <div class="container chartclass">
+            <div class="columns is-centered ">
+                <div class="column is-two-thirds">
+                    <!-- chart elements go here -->
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="./assets/js/chart.js"></script>
+        <script src="./assets/js/convert.js"></script>
+</body>
+
+</html>
