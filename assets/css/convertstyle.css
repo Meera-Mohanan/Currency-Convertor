@@ -2,3 +2,20 @@
 .hero.is-primary{
     background-color: #184589;
 }
+.tabs ul {
+   
+    background-color: #184589;
+}
+.tabs a {
+    color:white;
+}
+.convertcontainer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.field-label .label{
+    padding-left: 1rem;
+    padding-right: .1rem;
+}
+
