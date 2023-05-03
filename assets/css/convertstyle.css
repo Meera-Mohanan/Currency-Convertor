@@ -11,12 +11,17 @@ body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
     }
 .tabs ul {
+<<<<<<< HEAD
     background-color: #060b3baf;
+=======
+    background-color: #184589;
+>>>>>>> 80d4e1710b3820b579e35e52b44bdc9d51e4f2a8
 }
 .tabs a {
     color:white;
 }
 .b{
+<<<<<<< HEAD
     border: black;
    }
 
@@ -25,6 +30,16 @@ body {
     width:70% !important;
 }
 
+=======
+    border: #040101;
+}
+
+.wrapper{
+    margin-top: 1rem;
+    width:70% !important;
+}
+
+>>>>>>> 80d4e1710b3820b579e35e52b44bdc9d51e4f2a8
 .wrapper1{
     margin-top: 1rem;
     width:70% !important;
@@ -38,4 +53,8 @@ body {
       transform: rotate(90deg);
     }
   }
+<<<<<<< HEAD
+=======
+  
+>>>>>>> 80d4e1710b3820b579e35e52b44bdc9d51e4f2a8
 
