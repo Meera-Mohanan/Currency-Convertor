@@ -1,21 +1,41 @@
 
 .hero.is-primary{
-    background-color: #184589;
+    background-color: #1f467cbd;
 }
+body {
+    background: url(../images/blue_world_map.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+    }
 .tabs ul {
-   
-    background-color: #184589;
+    background-color: #060b3baf;
 }
 .tabs a {
     color:white;
 }
-.convertcontainer{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+.b{
+    border: black;
+   }
+
+.wrapper{
+    margin-top: 1rem;
+    width:70% !important;
 }
-.field-label .label{
-    padding-left: 1rem;
-    padding-right: .1rem;
+
+.wrapper1{
+    margin-top: 1rem;
+    width:70% !important;
 }
+.dropdowno{
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .rotate {
+      transform: rotate(90deg);
+    }
+  }
 
