@@ -3,19 +3,32 @@
     background-color: #184589;
 }
 .tabs ul {
-   
     background-color: #184589;
 }
 .tabs a {
     color:white;
 }
-.convertcontainer{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+.b{
+    border: #040101;
 }
-.field-label .label{
-    padding-left: 1rem;
-    padding-right: .1rem;
+
+.wrapper{
+    margin-top: 1rem;
+    width:70% !important;
 }
+
+.wrapper1{
+    margin-top: 1rem;
+    width:70% !important;
+}
+.dropdowno{
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .rotate {
+      transform: rotate(90deg);
+    }
+  }
+  
 
